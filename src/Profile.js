@@ -1,6 +1,7 @@
 import "./index.css";
 import { Link } from "react-router-dom";
 import Button from "./components/element/button";
+import ImagePerson from "./components/element/imagePerson";
 
 const Profil = () => {
   return (
@@ -29,6 +30,16 @@ const Profil = () => {
           Eat, Cook, Repeat
         </h1>
       </div>
+      <div className="flex justify-between items-center">
+        <div className="absolute top-24 left-157 flex space-x-6">
+        <div className="w-24 h-24 rounded-full">
+            <ImagePerson />
+          </div>
+        </div>
+      </div>
+      <h1 className="absolute top-48 inset-x-1/4 justify-items-center text-sm font-bold text-center text-black">
+          Anonymus
+        </h1>
     </div>
   );
 };

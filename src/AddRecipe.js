@@ -26,7 +26,7 @@ const Recipe = () => {
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <div className="absolute left-120 top-16">
+        <div className="absolute left-1/2 transform -translate-x-1/2 top-16">
           <input
             type="file"
             className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
@@ -37,7 +37,7 @@ const Recipe = () => {
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <div className="absolute left-120 top-52">
+        <div className="absolute left-1/2 transform -translate-x-1/2 top-52">
           <input
             type="text"
             className="w-150 h-10 text-sm bg-gray-300 focus:outline-none border rounded text-slate-900 placeholder:text-gray-700 placeholder:pl-4"
@@ -46,7 +46,7 @@ const Recipe = () => {
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <div className="absolute left-120 top-64">
+        <div className="absolute left-1/2 transform -translate-x-1/2 top-64">
           <input
             type="text"
             className="w-150 h-52 text-sm bg-gray-300 focus:outline-none border rounded text-slate-900 placeholder:text-gray-700 placeholder:pl-4"
@@ -55,7 +55,7 @@ const Recipe = () => {
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <div className="absolute left-120 bottom-56">
+        <div className="absolute left-1/2 transform -translate-x-1/2 bottom-56">
           <input
             type="url"
             className="w-150 h-10 text-sm bg-gray-300 focus:outline-none border rounded text-slate-900 placeholder:text-gray-700 placeholder:pl-4"
@@ -64,7 +64,7 @@ const Recipe = () => {
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <div className="absolute left-160 bottom-36">
+        <div className="absolute left-1/2 transform -translate-x-1/2 bottom-36">
           <Link to="/">
             <Button variant="font-bold bg-yellow-400 transition duration-150 delay-50 text-blue-900 hover:bg-yellow-500 px-3 py-2 rounded">
               Post
@@ -74,7 +74,7 @@ const Recipe = () => {
       </div>
       <div className="absolute bottom-0 w-screen h-24 bg-yellow-400 rounded-tl-lg"></div>
       <div className="flex justify-between items-center">
-        <h1 className="absolute left-155 bottom-7 text-2xl font-bold text-center text-blue-900">
+        <h1 className="absolute left-1/2 transform -translate-x-1/2 bottom-7 text-2xl font-bold text-center text-blue-900">
           Eat, Cook, Repeat
         </h1>
       </div>

@@ -89,14 +89,9 @@ const Register = () => {
           </Button>
           </Link>
           <div className="mt-2">
-            <p className="text-right">
-              <a href="#" className="text-slate-500 transition-colors duration-150 delay-50 hover:text-black hover:underline">
-                Forgot Password?
-              </a>
-            </p>
             <p className="mt-5 text-center">
             Already have account?{" "}
-              <a href="#" className="text-yellow-500 transition-colors duration-150 delay-50 hover:text-yellow-600 hover:underline">
+              <a href="/login" className="text-yellow-500 transition-colors duration-150 delay-50 hover:text-yellow-600 hover:underline">
                 Log in Here
               </a>
             </p>

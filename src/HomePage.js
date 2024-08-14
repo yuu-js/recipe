@@ -34,20 +34,20 @@ const Home = () => {
           <div className="p-0 pr-0 w-16 h-16 rounded-full">
             <ImagePerson />
           </div>
+          <Link to="/login">
           <Button variant="font-bold transition-colors duration-150 delay-50 hover:text-white text-black px-3 py-2 pl-0 rounded">
             Login
           </Button>
+          </Link>
         </div>
       </div>
       <div className="flex justify-between items-center">
         <div className="absolute bottom-4 right-64 flex items-center space-x-0">
           <div className="p-0 w-3 h-3 bg-green-500 rounded-full"></div>
           <div>
-          <Link to="/login">
           <Button variant="font-bold text-black transition-colors duration-150 delay-50 hover:text-white px-3 py-2 pl-2 rounded">
               Chat Admin
             </Button>
-          </Link>
           </div>
         </div>
       </div>

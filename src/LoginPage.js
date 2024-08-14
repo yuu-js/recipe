@@ -43,26 +43,35 @@ const Login = () => {
           />
           <div className="flex items-center justify-between mb-4">
             <label className="inline-flex items-center">
-              <input type="checkbox" className="form-checkbox accent-yellow-500" />
+              <input
+                type="checkbox"
+                className="form-checkbox accent-yellow-500"
+              />
               <span className="ml-2">Agree to terms & conditions</span>
             </label>
           </div>
-          <button
-            type="submit"
-            className="bg-yellow-500 text-white py-2 px-4 w-full rounded"
-          >
-            Login
-          </button>
-          <div className="mt-2 text-center">
-            <p>
-              <a href="#" className="text-blue-500">
+          <Link to="/">
+            <Button variant="bg-yellow-500 text-white transition-color duration-150 delay-50 hover:bg-yellow-600 hover:text-slate-200 py-2 px-4 w-full rounded">
+              Login
+            </Button>
+          </Link>
+          <div className="mt-2">
+            <p className="text-right">
+              <a
+                href="#"
+                className="text-slate-500 transition-colors duration-150 delay-50 hover:text-black hover:underline"
+              >
                 Forgot Password?
               </a>
             </p>
-            <p className="mt-5">
+            <p className="mt-5 p-0 m-0 text-center">
               Don't have an account?{" "}
-              <a href="#" className="text-blue-500">
-                Sign up
+              <a className="p-0 m-0">
+              <Link to="/register">
+                <Button variant="text-yellow-500 transition-colors duration-150 delay-50 hover:text-yellow-600 hover:underline">
+                  Sign up
+                </Button>
+              </Link>
               </a>
             </p>
           </div>
